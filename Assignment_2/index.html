@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descriptive Page Title</title>
+    <link rel="icon" href="images/webicon.svg" type="image/x-icon">
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <header role="banner">
+        <nav class="navbar" role="navigation">
+            <img class="navbar__image" src="images/webicon.svg" alt="Website Icon">
+            <ul class="navbar__links">
+                <li class="navbar__item"><a href="#" aria-current="page">Home</a></li>
+                <li class="navbar__item"><a href="#">About</a></li>
+                <li class="navbar__item"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content" role="main">
+
+        <section class="content__section" id="new-york-city">
+
+            <h1 class="content__title">New York City</h1>
+            <p class="content__description">Explore the depths of the city that never sleeps!</p>
+            <picture>
+                <source srcset="images/nycny.webp" type="image/webp">
+                <source srcset="images/nycny.jpg" type="image/jpeg">
+                <img class="content__image" src="images/nycny.jpg" alt="New York City Skyline" loading="lazy" sizes="(max-width: 400px) 100vw, (max-width: 960px) 50vw, 33vw">
+            </picture>
+
+            <article class="content__article">
+                <h2 class="content__article-title">Article Title</h2>
+                <p class="content__article-description">Content Description</p>
+            </article>
+
+        </section>
+
+        <section class="content__section" id="auburn-alabama">
+
+            <h1 class="content__title">Auburn, Alabama</h1>
+            <p class="content__description">Explore the loveliest village on the plains!</p>
+            <picture>
+                <source srcset="images/auburnal.webp" type="image/webp">
+                <source srcset="images/auburnal.jpg" type="image/jpeg">
+                <img class="content__image" src="images/auburnal.jpg" alt="Auburn, Alabama" loading="lazy">
+            </picture>
+
+            <article class="content__article">
+                <h2 class="content__article-title">Article Title</h2>
+                <p class="content__article-description">Content Description</p>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer class="footer" role="contentinfo">
+
+        <p class="footer__text">&copy; 2020 - All Rights Reserved</p>
+
+    </footer>
+
+</body>
+</html>
