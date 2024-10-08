@@ -1,9 +1,13 @@
 Lesson 2 Assignment: Responsive Layout
 
-1. Please complete either or both to learn the CSS Grid and Flexbox games. CSS Grid: https://cssgridgarden.com/ Flexbox: https://flexboxfroggy.com/. Screenshot your final results and attach them as a file to the assignment.
+1. Please complete either or both to learn the CSS Grid and Flexbox games:
+ CSS Grid: https://cssgridgarden.com/
+ Flexbox: https://flexboxfroggy.com/
+
+2. Screenshot your final results and attach them as a file to the assignment.
 
 
-2. Create a responsive layout using HTML5 semantic structure, CSS media Query, and link style sheet externally.
+3. Create a responsive layout using HTML5 semantic structure, CSS media Query, and link style sheet externally.
 Requirements:
 
 the document must have a <head>, <nav>, <main>, <footer> elements. you can refer to https://www.w3schools.com/html/html5_semantic_elements.aspLinks to an external site.
@@ -12,7 +16,7 @@ You can add content and images.
 Make sure the document demonstrates style changes at different viewport widths.
 
 
-3. Use these default styles for media queries - "you can remove the body{} styles in the code below":
+4. Use these default styles for media queries - "you can remove the body{} styles in the code below":
 
 
 /* Mobile Styles */
@@ -37,5 +41,5 @@ Make sure the document demonstrates style changes at different viewport widths.
 }
 
 
-4. Attach a zip or individual files, if you keep track in GitHub five me the resposity link or use https://codepen.io/Links to an external site. URL.
+5. Attach a zip or individual files, if you keep track in GitHub five me the resposity link or use https://codepen.io/Links to an external site. URL.
 Note: "Style Mobile First"
