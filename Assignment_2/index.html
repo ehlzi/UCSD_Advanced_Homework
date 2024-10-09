@@ -9,13 +9,13 @@
 </head>
 <body>
     <header role="banner">
+        <img class="navbar__image" src="images/webicon.svg" alt="Website Icon">
         <nav class="navbar" role="navigation">
-            <img class="navbar__image" src="images/webicon.svg" alt="Website Icon">
-            <ul class="navbar__links">
-                <li class="navbar__item"><a href="#" aria-current="page">Home</a></li>
-                <li class="navbar__item"><a href="#">About</a></li>
-                <li class="navbar__item"><a href="#">Contact</a></li>
-            </ul>
+            <div class="navbar__links">
+                <a class="navbar__item" href="#" aria-current="page">Home</a>
+                <a class="navbar__item" href="#">About</a>
+                <a class="navbar__item" href="#">Contact</a>
+            </div>
         </nav>
     </header>
 
@@ -24,7 +24,6 @@
         <section class="content__section" id="new-york-city">
 
             <h1 class="content__title">New York City</h1>
-            <p class="content__description">Explore the depths of the city that never sleeps!</p>
             <picture>
                 <source srcset="images/nycny.webp" type="image/webp">
                 <source srcset="images/nycny.jpg" type="image/jpeg">
@@ -32,8 +31,10 @@
             </picture>
 
             <article class="content__article">
-                <h2 class="content__article-title">Article Title</h2>
-                <p class="content__article-description">Content Description</p>
+                <h4 class="content__article-description">Explore the depths of the city that never sleeps!</h4>
+                <p class="content__article-subdescription">
+                    New York City, a global hub of finance, culture, and innovation, pulsates with an energy unlike anywhere else. Its iconic skyline, a testament to human ambition, is a backdrop for a diverse tapestry of neighborhoods, each with its own distinct character. From the bustling streets of Midtown Manhattan to the artistic enclaves of Brooklyn, NYC offers a symphony of experiences, from world-class museums and Broadway shows to hidden speakeasies and vibrant street art. The city that never sleeps is a constant reminder of the human spirit's boundless capacity for creativity and resilience.
+                </p>
             </article>
 
         </section>
@@ -41,7 +42,6 @@
         <section class="content__section" id="auburn-alabama">
 
             <h1 class="content__title">Auburn, Alabama</h1>
-            <p class="content__description">Explore the loveliest village on the plains!</p>
             <picture>
                 <source srcset="images/auburnal.webp" type="image/webp">
                 <source srcset="images/auburnal.jpg" type="image/jpeg">
@@ -49,8 +49,10 @@
             </picture>
 
             <article class="content__article">
-                <h2 class="content__article-title">Article Title</h2>
-                <p class="content__article-description">Content Description</p>
+                <h4 class="content__article-description">Explore the loveliest village on the plains!</h4>
+                <p class="content__article-subdescription">
+                    Auburn, Alabama, is a charming town steeped in Southern tradition and fueled by the passionate spirit of Auburn University.  With its rolling hills and lush greenery, Auburn offers a slower pace of life, where community and college football reign supreme.  Toomer's Corner, a beloved landmark, is a gathering place for celebrations and a symbol of Auburn's unwavering pride.  From the historic downtown with its quaint shops and local restaurants to the vibrant campus buzzing with student life, Auburn exudes a warm and welcoming atmosphere that embodies the heart of Southern hospitality.
+                </p>
             </article>
 
         </section>
@@ -59,7 +61,7 @@
 
     <footer class="footer" role="contentinfo">
 
-        <p class="footer__text">&copy; 2020 - All Rights Reserved</p>
+        <p class="footer__text">&copy; 2024 - Ervin Elzie, All Rights Reserved</p>
 
     </footer>
 
