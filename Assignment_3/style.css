@@ -22,18 +22,18 @@ body {
 
 .navigation {
     display: flex;
-    background-color: white;
-    border-bottom: 3px solid black;
     position: absolute;
     top: 0;
     width: 100%;
+    background-color: white;
+    border-bottom: 3px solid black;
 }
 
 .navigation .navigation__image {
     display: flex;
     align-items: center;
-    margin: 10px;
     width: 50px;
+    margin: 10px;
 }
 
 .navigation ul {
@@ -55,17 +55,17 @@ body {
     display: flex;
 }
 
-.navigation .navigation__button[aria-current] {
-    font-weight: bold;
-}
-
 .navigation .navigation__button {
     display: flex;
+    position: relative;
     background-color: white;
     border-bottom: 1px solid black;
     transition: all 0.3s ease 0s;
     overflow: hidden;
-    position: relative;
+}
+
+.navigation .navigation__button[aria-current] {
+    font-weight: bold;
 }
 
 .navigation .navigation__button:hover {
@@ -149,9 +149,9 @@ article p {
     }
 
     .navigation .navigation__button-container {
-        margin-right: 37px;
         align-items: center;
         flex-direction: column;
+        margin-right: 37px;
     }
 
     .navigation .navigation__button {
@@ -214,7 +214,6 @@ article p {
     .footer {
         bottom: 0;
     }
-
 }
 
 /* Desktop Styles */
