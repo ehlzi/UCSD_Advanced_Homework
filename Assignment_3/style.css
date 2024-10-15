@@ -58,7 +58,7 @@ article {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    text-align: left;
 }
 
 article h1, article h5 {
@@ -118,9 +118,8 @@ article p {
     color: black;
     text-align: center;
     border-top: 2px solid black;
-    padding: 30px;
+    padding: 10px;
     position: absolute;
-    bottom: 0;
     width: 100%;
 }
 
@@ -128,7 +127,7 @@ article p {
 @media only screen and (max-width: 531px) {
 
     body {
-        padding-top: 300px;
+        padding-top: 250px;
     }
 
     .navigation {
@@ -171,8 +170,8 @@ article p {
 @media only screen and (min-width: 531px) and (max-width: 960px) {
 
     body {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .navigation {
@@ -203,6 +202,10 @@ article p {
     .navigation__button:hover::before {
         height: 100%;
         color: white;
+    }
+
+    .footer {
+        bottom: 0;
     }
 
 }
@@ -211,8 +214,8 @@ article p {
 @media only screen and (min-width: 961px) {
 
     body {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .navigation {
@@ -243,6 +246,10 @@ article p {
     .navigation__button:hover::before {
         height: 100%;
         color: white;
+    }
+
+    .footer {
+        bottom: 0;
     }
 
 }
