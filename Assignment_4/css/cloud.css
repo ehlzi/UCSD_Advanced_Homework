@@ -103,7 +103,6 @@
 	}
   }
 
-  /* This section defines the keyframes for the rising and setting animation of the sun */
   @keyframes riseAndSet {
 	0% {
 	  bottom: -100px;
