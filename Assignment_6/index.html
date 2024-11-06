@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ervin Elzie Assignment 6</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <h1 id="myHeader">Hello, jquery!</h1>
+
+        <input type="button" id="changeColorButton" value="Change Color">
+        <input type="button" id="changeSizeButton" value="Change Size">
+        <input type="button" id="appendTextButton" value="Append Text">
+        <input type="button" id="resetButton" value="Reset">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $("#changeColorButton").click(function() {
+                    $("#myHeader").css("color", "red");
+                });
+
+                $("#changeSizeButton").click(function() {
+                    $("#myHeader").css("font-size", "50px");
+                });
+
+                $("#appendTextButton").click(function() {
+                    $("#myHeader").append(" - Ervin Elzie");
+                });
+
+                $("#resetButton").click(function() {
+                    $("#myHeader").css("color", "black");
+                    $("#myHeader").css("font-size", "20px");
+                    $("#myHeader").text("Hello, jquery!");
+                });
+            });
+        </script>
+    </body>
+</html>
