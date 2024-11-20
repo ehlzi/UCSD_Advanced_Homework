@@ -1,4 +1,4 @@
-.multiple_cards_container {
+.cards__container {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -6,7 +6,7 @@
     gap: 1rem;
 }
 
-.multiple_cards_container .card {
+.cards__container__card {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -17,12 +17,12 @@
     color: white;
 }
 
-.splash_card_container {
+.splash-card__container {
     display: flex;
     width: 100%;
 }
 
-.splash_card_container .splash_card {
+.splash-card__container__splash-card {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

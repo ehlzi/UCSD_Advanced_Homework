@@ -17,18 +17,18 @@ main {
     justify-content: center;
 }
 
-main #main__splashimage {
+#main__splashimage {
     display: flex;
     max-width: 100%;
 }
 
-main #main__article {
+#main__article {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-main #main__form {
+#main__form {
     display: flex;
     flex-direction: column;
     gap: 1rem;

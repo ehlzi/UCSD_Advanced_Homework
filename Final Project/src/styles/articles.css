@@ -1,32 +1,32 @@
-.multiple_articles_container {
+.articles__container {
     display: flex;
     justify-content: center;
     width: 100%;
     gap: 1rem;
 }
 
-.multiple_articles_container .article {
+.articles__container__article {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1rem 0 1rem 0;
+    padding: 1rem 0;
     gap: 1rem;
 }
 
-.multiple_mini_articles_container {
+.mini-articles__container {
     display: flex;
     justify-content: center;
     width: 100%;
     gap: 1rem;
 }
 
-.multiple_mini_articles_container .mini_article {
+.mini-articles__container__mini-article {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 50%;
     height: 200px;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem;
     background-color: grey;
     color: white;
 }
