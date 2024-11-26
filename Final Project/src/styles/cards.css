@@ -6,7 +6,12 @@
     gap: 1rem;
 }
 
-.cards__container__card {
+.cards__image {
+    display: flex;
+    width: 100%;
+}
+
+.cards__card-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -15,6 +20,7 @@
     padding: 1rem 1rem 1rem 1rem;
     background-color: grey;
     color: white;
+    gap: 1rem;
 }
 
 .splash-card__container {
@@ -22,7 +28,7 @@
     width: 100%;
 }
 
-.splash-card__container__splash-card {
+.splash-card__card-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

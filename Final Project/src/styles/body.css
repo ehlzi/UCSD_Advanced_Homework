@@ -27,29 +27,3 @@ main {
     flex-direction: column;
     gap: 1rem;
 }
-
-#main__form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-main form label {
-    font-weight: bold;
-}
-
-main form input[type="text"],
-main form input[type="email"] {
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-main form input[type="submit"] {
-    padding: 0.75rem;
-    background-color: #333;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}

@@ -5,7 +5,7 @@
     gap: 1rem;
 }
 
-.articles__container__article {
+.articles__article-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,7 +20,7 @@
     gap: 1rem;
 }
 
-.mini-articles__container__mini-article {
+.mini-articles__article-container {
     display: flex;
     flex-direction: column;
     justify-content: center;

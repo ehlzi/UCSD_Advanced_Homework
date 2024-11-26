@@ -16,7 +16,7 @@
     background-color: grey;
 }
 
-#navbar__logo {
+.navbar__logo {
     display: flex;
     max-width: 5rem;
 }
@@ -31,7 +31,7 @@
     background-color: lightblue;
 }
 
-.navbar__list__item {
+.navbar__item {
     display: flex;
     padding: 1rem;
     background-color: lightgray;

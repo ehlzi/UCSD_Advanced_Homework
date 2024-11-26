@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Descriptive Page Title</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="" type="image/x-icon"> <!-- Add a favicon href="favicon.ico" -->
     <link href="./src/styles/navbar.css" rel="stylesheet">
     <link href="./src/styles/body.css" rel="stylesheet">
     <link href="./src/styles/articles.css" rel="stylesheet">
     <link href="./src/styles/cards.css" rel="stylesheet">
     <link href="./src/styles/footer.css" rel="stylesheet">
+    <link href="./src/styles/forms.css" rel="stylesheet">
     <link href="./src/output.css" rel="stylesheet">
 </head>
 
@@ -25,12 +26,12 @@
 
     <nav id="navbar__container" role="navigation" aria-label="Main Navigation">
 
-        <image id="navbar__logo" src="src/Images/logo.png" alt="Logo" aria-label="Logo"></image>
+        <img class="navbar__logo" src="src/Images/logo.png" alt="Logo" aria-label="Logo">
 
         <ul id="navbar__list">
-            <li><a class="navbar__list__item" href="#" aria-current="page">Home</a></li>
-            <li><a class="navbar__list__item" href="#">About</a></li>
-            <li><a class="navbar__list__item" href="#">Contact</a></li>
+            <li><a class="navbar__item" href="#" aria-current="page">Home</a></li>
+            <li><a class="navbar__item" href="#">About</a></li>
+            <li><a class="navbar__item" href="#">Contact</a></li>
         </ul>
 
     </nav>
@@ -39,40 +40,124 @@
 
 <main role="main">
 
-    <image id="main__splashimage" src="src/Images/splashimagex.png" alt="Splash Image" aria-label="Splash Image"></image>
+    <img id="main__splashimage" src="src/Images/splashimagex.png" alt="Splash Image" aria-label="Splash Image">
 
     <section class="cards__container">
 
-        <div class="cards__container__card">
+        <div class="cards__card-container">
             <h2>TITLE</h2>
-            <p>Text.</p>
+            <p>
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                Ipsum.
+            </p>
         </div>
 
-        <div class="cards__container__card">
+        <div class="cards__card-container">
             <h2>TITLE</h2>
-            <p>Text.</p>
+            <p>
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                Ipsum.
+            </p>
         </div>
 
-        <div class="cards__container__card">
+        <div class="cards__card-container">
             <h2>TITLE</h2>
-            <p>Text.</p>
+            <p>
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                Ipsum.
+            </p>
         </div>
 
-        <div class="cards__container__card">
+        <div class="cards__card-container">
             <h2>TITLE</h2>
-            <p>Text.</p>
+            <p>
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                Ipsum.
+            </p>
         </div>
 
-        <div class="cards__container__card">
+        <div class="cards__card-container">
             <h2>TITLE</h2>
-            <p>Text.</p>
+            <p>
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                Ipsum.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="cards__container">
+
+        <div class="cards__card-container">
+            <img class="cards__image" src="src/Images/cardlandscape.png" alt="Card Image" aria-label="Card Image">
+
+            <section>
+                <h2>TITLE</h2>
+                <p>
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </section>
+        </div>
+
+        <div class="cards__card-container">
+            <img class="cards__image" src="src/Images/cardlandscape.png" alt="Card Image" aria-label="Card Image">
+
+            <section>
+                <h2>TITLE</h2>
+                <p>
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </section>
+        </div>
+
+        <div class="cards__card-container">
+            <img class="cards__image" src="src/Images/cardlandscape.png" alt="Card Image" aria-label="Card Image">
+
+            <section>
+                <h2>TITLE</h2>
+                <p>
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </section>
+        </div>
+
+        <div class="cards__card-container">
+            <img class="cards__image" src="src/Images/cardlandscape.png" alt="Card Image" aria-label="Card Image">
+
+            <section>
+                <h2>TITLE</h2>
+                <p>
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </section>
+        </div>
+
+        <div class="cards__card-container">
+            <img class="cards__image" src="src/Images/cardlandscape.png" alt="Card Image" aria-label="Card Image">
+
+            <section>
+                <h2>TITLE</h2>
+                <p>
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </section>
         </div>
 
     </section>
 
     <section class="mini-articles__container">
 
-        <article class="mini-articles__container__mini-article">
+        <article class="mini-articles__article-container">
             <h1>BOX TITLE</h1>
 
             <p>
@@ -82,7 +167,7 @@
             </p>
         </article>
 
-        <article class="mini-articles__container__mini-article">
+        <article class="mini-articles__article-container">
             <h1>BOX TITLE</h1>
 
             <p>
@@ -92,7 +177,7 @@
             </p>
         </article>
 
-        <article class="mini-articles__container__mini-article">
+        <article class="mini-articles__article-container">
             <h1>BOX TITLE</h1>
 
             <p>
@@ -106,9 +191,10 @@
 
     <section class="articles__container">
 
-        <article class="articles__container__article">
+        <article class="articles__article-container">
 
-            <image class="article__image" src="src/Images/articleimage.png" alt="Article Image" aria-label="Article Image"></image>
+            <img class="articles__image" src="src/Images/articleimage.png" alt="Article Image" aria-label="Article Image">
+
             <h1>What is Lorem Ipsum?</h1>
 
             <p>
@@ -123,9 +209,10 @@
 
         </article>
 
-        <article class="articles__container__article">
+        <article class="articles__article-container">
 
-            <image class="article__image" src="src/Images/articleimage.png" alt="Article Image" aria-label="Article Image"></image>
+            <img class="articles__image" src="src/Images/articleimage.png" alt="Article Image" aria-label="Article Image">
+
             <h1>What is Lorem Ipsum?</h1>
 
             <p>
@@ -144,7 +231,7 @@
 
     <section class="splash-card__container">
 
-        <div class="splash-card__container__splash-card">
+        <div class="splash-card__card-container">
             <h2>TITLE</h2>
             <p>Text.</p>
         </div>
@@ -153,37 +240,74 @@
 
     <section class="cards__container">
 
-        <div class="cards__container__card">
+        <div class="cards__card-container">
             <h2>TITLE</h2>
             <p>Text.</p>
         </div>
 
-        <div class="cards__container__card">
+        <div class="cards__card-container">
             <h2>TITLE</h2>
             <p>Text.</p>
         </div>
 
     </section>
 
+    <section class="form">
 
-    <!--
-    <form id="main__form">
+        <form class="form__container">
 
-    <label for="name">Username:</label>
-    <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name" placeholder="Enter Username" aria-label="Username" required>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" placeholder="Enter Email" aria-label="Email" required>
 
-    <input type="submit" value="Submit">
+            <input type="submit" value="Submit">
 
-    </form>
-    -->
+        </form>
+
+    </section>
 
 </main>
 
-<footer id="footer" role="contentinfo">
-    <p>&copy; Ervin Elzie 2024</p>
+<footer class="footer" role="contentinfo">
+
+    <section class="footer__grid-container">
+
+        <section class="footer__grid-item footer__company-info">
+
+            <section class="footer__company-info-logo">
+                <img class="footer__logo" src="src/Images/logo.png" alt="Logo" aria-label="Logo">
+                <h1>COMPANY NAME</h1>
+            </section>
+
+            <p>&copy; 2024</p>
+        </section>
+
+        <section class="footer__grid-item footer__list-container--variant0">
+
+            <h1>COMPANY</h1>
+
+            <ul class="footer__list">
+                <li><a class="footer__list-item" href="#" aria-current="page">Home</a></li>
+                <li><a class="footer__list-item" href="#">About</a></li>
+                <li><a class="footer__list-item" href="#">Contact</a></li>
+            </ul>
+
+        </section>
+
+        <section class="footer__grid-item footer__list-container--variant1">
+
+            <h1>MORE</h1>
+
+            <ul class="footer__list">
+                <li><a class="footer__list-item" href="#" aria-current="page">Link</a></li>
+                <li><a class="footer__list-item" href="#">Link</a></li>
+                <li><a class="footer__list-item" href="#">Link</a></li>
+            </ul>
+
+        </section>
+
+    </section>
+
 </footer>
 
 </body>
