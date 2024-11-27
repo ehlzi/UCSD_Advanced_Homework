@@ -1,17 +1,19 @@
-.form {
+.form__container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
-    background-color: grey;
+    background-color: rgb(154, 198, 197);
+    border: 0.1rem solid rgb(250, 249, 246);
 }
 
-.form__container {
+.form {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 2rem;
+    margin: 1rem;
     gap: 1rem;
-    background-color: white;
+    background-color: rgb(238, 207, 109);
+    border: 0.1rem solid rgb(250, 249, 246);
 }
 
 main form label {

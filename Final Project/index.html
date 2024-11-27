@@ -7,10 +7,12 @@
     <link rel="icon" href="" type="image/x-icon"> <!-- Add a favicon href="favicon.ico" -->
     <link href="./src/styles/navbar.css" rel="stylesheet">
     <link href="./src/styles/body.css" rel="stylesheet">
+    <link href="./src/styles/footer.css" rel="stylesheet">
+    <link href="./src/styles/titles.css" rel="stylesheet">
     <link href="./src/styles/articles.css" rel="stylesheet">
     <link href="./src/styles/cards.css" rel="stylesheet">
-    <link href="./src/styles/footer.css" rel="stylesheet">
     <link href="./src/styles/forms.css" rel="stylesheet">
+    <link href="./src/styles/images.css" rel="stylesheet">
     <link href="./src/output.css" rel="stylesheet">
 </head>
 
@@ -21,14 +23,13 @@
 <a href="#footer" class="skip-link">Skip to footer</a>
 -->
 
+<header class="navbar" role="banner">
 
-<header id="navbar" role="banner">
+    <nav class="navbar__container" role="navigation" aria-label="Main Navigation">
 
-    <nav id="navbar__container" role="navigation" aria-label="Main Navigation">
+        <img class="navbar__logo" src="src/Images/blklogonofill.png" alt="Logo" aria-label="Logo">
 
-        <img class="navbar__logo" src="src/Images/logo.png" alt="Logo" aria-label="Logo">
-
-        <ul id="navbar__list">
+        <ul class="navbar__list">
             <li><a class="navbar__item" href="#" aria-current="page">Home</a></li>
             <li><a class="navbar__item" href="#">About</a></li>
             <li><a class="navbar__item" href="#">Contact</a></li>
@@ -40,229 +41,534 @@
 
 <main role="main">
 
-    <img id="main__splashimage" src="src/Images/splashimagex.png" alt="Splash Image" aria-label="Splash Image">
+    <!-- Below is the code for the splash image -->
 
-    <section class="cards__container">
-
-        <div class="cards__card-container">
-            <h2>TITLE</h2>
-            <p>
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
-                Ipsum.
-            </p>
-        </div>
-
-        <div class="cards__card-container">
-            <h2>TITLE</h2>
-            <p>
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
-                Ipsum.
-            </p>
-        </div>
-
-        <div class="cards__card-container">
-            <h2>TITLE</h2>
-            <p>
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
-                Ipsum.
-            </p>
-        </div>
-
-        <div class="cards__card-container">
-            <h2>TITLE</h2>
-            <p>
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
-                Ipsum.
-            </p>
-        </div>
-
-        <div class="cards__card-container">
-            <h2>TITLE</h2>
-            <p>
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
-                Ipsum.
-            </p>
-        </div>
-
+    <section class="splash__container">
+        <img class="splash__image" src="src/Images/splashimage-camera.jpg" alt="Splash Image"
+             aria-label="Splash Image">
     </section>
 
-    <section class="cards__container">
+    <!-- Below is the code for the bio -->
 
-        <div class="cards__card-container">
-            <img class="cards__image" src="src/Images/cardlandscape.png" alt="Card Image" aria-label="Card Image">
+    <section class="bio__container">
 
-            <section>
-                <h2>TITLE</h2>
+        <section class="bio__elements">
+
+            <h2>Film Developing, Processing, Scanning & More</h2>
+
+            <article class="bio-card__article">
                 <p>
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Welcome to blk.film lab, your destination for professional film development and scanning services.
+                    We are based in Montgomery, Alabama, but are proud to process film from all around the world. As a
+                    dedicated film lab, we specialize in processing both color and black-and-white film using
+                    state-of-the-art dip and dunk processors. Photographers trust us with their 35mm, medium format, and
+                    large format films, knowing we deliver the best quality, high-resolution digital files of their
+                    scans.
                 </p>
-            </section>
-        </div>
 
-        <div class="cards__card-container">
-            <img class="cards__image" src="src/Images/cardlandscape.png" alt="Card Image" aria-label="Card Image">
-
-            <section>
-                <h2>TITLE</h2>
                 <p>
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    At blk.film lab, we pride ourselves on being a people's lab, fostering a diverse community of
+                    photographers who trust us with their creative visions. Whether you're a seasoned professional, a
+                    passionate hobbyist, or a newcomer to film photography, we are committed to providing a stellar
+                    experience. We offer personalized service and a collaborative approach to editing that ensures every
+                    client receives scans they love.
                 </p>
-            </section>
-        </div>
 
-        <div class="cards__card-container">
-            <img class="cards__image" src="src/Images/cardlandscape.png" alt="Card Image" aria-label="Card Image">
-
-            <section>
-                <h2>TITLE</h2>
                 <p>
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    In addition to our exceptional film processing and scanning services, we host Film Drop. What's
+                    that, you ask? We purchase film at wholesale prices and pass those savings along to you, bundled
+                    with a lab credit!
+                    Our slogan, "Long Live Film," reflects our passion for preserving the art and craft of analog
+                    photography! We believe in the art of film and work tirelessly to keep it alive.
                 </p>
+            </article>
+
+        </section>
+
+    </section>
+
+    <!-- Below is the code for the film type -->
+
+    <section class="film-type__container">
+
+        <section class="film-type__title">
+            <h1>ALL FILM TYPES</h1>
+
+            <p>
+                We are a film lab that specializes in developing and scanning film.
+            </p>
+
+            <p>
+                We offer services for color, black and white, and slide film
+                as well as prints for 35mm and medium format film.
+            </p>
+        </section>
+
+        <section class="film-type__elements">
+
+            <section class="film-type__article-container">
+
+                <svg class="film-type__icon" width="40" height="40" viewBox="0 0 16 16" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="8" cy="8" r="7.75" stroke="#EC672C" stroke-width="0.4">
+                    </circle>
+                    <path d="M5 8L7 10L11 6" stroke="#EC672C" stroke-width="0.4">
+                    </path>
+                </svg>
+
+                <h1>COLOR - 35MM & 120MM FILM</h1>
+
+                <article class="film-type__article">
+
+                    <p>
+                        Color Film Development, Scanning, and Prints.
+                    </p>
+
+                    <p>
+                        35mm film is printed on 4x6 luster paper.
+                    </p>
+
+                    <p>
+                        Medium formats (6x4.5, 6x6, and 6x7) is printed on luster paper without any cropping.
+                    </p>
+                </article>
+
             </section>
-        </div>
 
-        <div class="cards__card-container">
-            <img class="cards__image" src="src/Images/cardlandscape.png" alt="Card Image" aria-label="Card Image">
+            <section class="film-type__article-container">
 
-            <section>
-                <h2>TITLE</h2>
+                <svg class="film-type__icon" width="40" height="40" viewBox="0 0 16 16" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="8" cy="8" r="7.75" stroke="#EC672C" stroke-width="0.4">
+                    </circle>
+                    <path d="M5 8L7 10L11 6" stroke="#EC672C" stroke-width="0.4">
+                    </path>
+                </svg>
+
+                <h1>MONOCHROME - 35MM & 120MM FILM</h1>
+
+                <article class="film-type__article">
+
+                    <p>
+                        Black and White Film Development, Scanning, and Prints.
+                    </p>
+
+                    <p>
+                        35mm film is printed on 4x6 luster paper with no color cast.
+                    </p>
+
+                    <p>
+                        Medium formats (6x4.5, 6x6, and 6x7) is printed on luster paper without any cropping.
+                    </p>
+                </article>
+
+            </section>
+
+            <section class="film-type__article-container">
+
+                <svg class="film-type__icon" width="40" height="40" viewBox="0 0 16 16" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="8" cy="8" r="7.75" stroke="#EC672C" stroke-width="0.4">
+                    </circle>
+                    <path d="M5 8L7 10L11 6" stroke="#EC672C" stroke-width="0.4">
+                    </path>
+                </svg>
+
+                <h1>E6 SLIDE FILM</h1>
+
+                <article class="film-type__article">
+
+                    <p>
+                        E-6 Slide Film Development, Scanning, and Prints.
+                    </p>
+
+                    <p>
+                        35mm film is printed on 4x6 luster paper.
+                    </p>
+
+                    <p>
+                        Medium formats (6x4.5, 6x6, and 6x7) is printed on luster paper without any cropping.
+                    </p>
+                </article>
+
+            </section>
+
+        </section>
+
+    </section>
+
+    <!-- Below is the code for the shop cards -->
+
+    <section class="shop__container">
+
+        <section class="shop__title">
+            <h1>SHOP OUR STORE</h1>
+
+            <p>
+                Shop our store for film, cameras, and accessories.
+            </p>
+        </section>
+
+        <section class="shop__elements">
+
+            <section class="shop__item">
+
+                <section class="shop__image-container">
+
+                    <img class="shop__image" src="src/Images/splashimage-35mm.webp" alt="Shop Image"
+                         aria-label="Shop Image">
+
+                    <article class="shop__image-overlay-text">
+                        <h2>35MM FILM</h2>
+                    </article>
+
+                </section>
+
+            </section>
+
+            <section class="shop__item">
+
+                <section class="shop__image-container">
+
+                    <img class="shop__image" src="src/Images/splashimage-120mm.webp" alt="Shop Image"
+                         aria-label="Shop Image">
+                    <article class="shop__image-overlay-text">
+                        <h2>120MM FILM</h2>
+                    </article>
+
+                </section>
+
+            </section>
+
+            <section class="shop__item">
+
+                <section class="shop__image-container">
+
+                    <img class="shop__image" src="src/Images/splashimage-monochrome.webp" alt="Shop Image"
+                         aria-label="Shop Image">
+                    <article class="shop__image-overlay-text">
+                        <h2>MONOCHROME FILM</h2>
+                    </article>
+
+                </section>
+
+            </section>
+
+            <section class="shop__item">
+
+                <section class="shop__image-container">
+
+                    <img class="shop__image" src="src/Images/splashimage-slidefilm.webp" alt="Shop Image"
+                         aria-label="Shop Image">
+                    <article class="shop__image-overlay-text">
+                        <h2>SLIDE FILM</h2>
+                    </article>
+
+                </section>
+
+            </section>
+
+            <section class="shop__item">
+
+                <section class="shop__image-container">
+
+                    <img class="shop__image" src="src/Images/splashimage-polaroid.webp" alt="Shop Image"
+                         aria-label="Shop Image">
+                    <article class="shop__image-overlay-text">
+                        <h2>POLAROID</h2>
+                    </article>
+
+                </section>
+
+            </section>
+
+            <section class="shop__item">
+
+                <section class="shop__image-container">
+
+                    <img class="shop__image" src="src/Images/splashimage-35mm.webp" alt="Shop Image"
+                         aria-label="Shop Image">
+                    <article class="shop__image-overlay-text">
+                        <h2>35MM FILM</h2>
+                    </article>
+
+                </section>
+
+            </section>
+
+        </section>
+
+        <!-- Second Block For Shop -->
+
+        <section class="shop__elements">
+
+            <section class="shop__item">
+
+                <section class="shop__image-container">
+
+                    <img class="shop__image" src="src/Images/splashimage-cameras.webp" alt="Shop Image"
+                         aria-label="Shop Image">
+                    <article class="shop__image-overlay-text">
+                        <h2>CAMERAS</h2>
+                    </article>
+
+                </section>
+
+            </section>
+
+            <section class="shop__item">
+
+                <section class="shop__image-container">
+
+                    <img class="shop__image" src="src/Images/splashimage-cases.webp" alt="Shop Image"
+                         aria-label="Shop Image">
+                    <article class="shop__image-overlay-text">
+                        <h2>CASES</h2>
+                    </article>
+
+                </section>
+
+            </section>
+
+            <section class="shop__item">
+
+                <section class="shop__image-container">
+
+                    <img class="shop__image" src="src/Images/splashimage-keychain.webp" alt="Shop Image"
+                         aria-label="Shop Image">
+                    <article class="shop__image-overlay-text">
+                        <h2>KEYCHAINS</h2>
+                    </article>
+
+                </section>
+
+            </section>
+
+            <section class="shop__item">
+
+                <section class="shop__image-container">
+
+                    <img class="shop__image" src="src/Images/splashimage-straps.webp" alt="Shop Image"
+                         aria-label="Shop Image">
+                    <article class="shop__image-overlay-text">
+                        <h2>CAMERA STRAPS</h2>
+                    </article>
+
+                </section>
+
+            </section>
+
+            <section class="shop__item">
+
+                <section class="shop__image-container">
+
+                    <img class="shop__image" src="src/Images/splashimage-gear.webp" alt="Shop Image"
+                         aria-label="Shop Image">
+                    <article class="shop__image-overlay-text">
+                        <h2>GEAR</h2>
+                    </article>
+
+                </section>
+
+            </section>
+
+            <section class="shop__item">
+
+                <section class="shop__image-container">
+
+                    <img class="shop__image" src="src/Images/splashimage-rapidretro.webp" alt="Shop Image"
+                         aria-label="Shop Image">
+                    <article class="shop__image-overlay-text">
+                        <h2>RAPID RETRO</h2>
+                    </article>
+
+                </section>
+
+            </section>
+
+        </section>
+
+    </section>
+
+    <!-- Below is the code for the TV section -->
+
+    <section class="tv__container">
+
+        <section class="tv__title">
+            <h1>TUNE IN</h1>
+
+            <p>
+                See what's new on our channel.
+            </p>
+        </section>
+
+        <section class="tv__elements">
+
+            <section class="tv__splashimage-container">
+                <iframe class="tv__splashimage"
+                        src="https://www.youtube.com/embed/EA-JPo6p3wo?&autoplay=1&mute=1&controls=0&showinfo=0&rel=0&loop=1&playlist=EA-JPo6p3wo"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                </iframe>
+            </section>
+
+            <section class="tv__item-container">
+
+                <section class="tv__item">
+                    <img class="tv__image" src="src/Images/videoimage-1.webp" alt="TV Image" aria-label="TV Image">
+
+                    <article>
+                        <h2>ADOX CHS 100 II MONOCHROME REVIEW </h2>
+                        <p>
+                            This film stock is a classic black and white film that is a great choice for beginners and
+                            professionals alike.
+                        </p>
+                    </article>
+                </section>
+
+                <section class="tv__item">
+                    <img class="tv__image" src="src/Images/videoimage-2.webp" alt="TV Image" aria-label="TV Image">
+
+                    <article>
+                        <h2>ADOX HR-50 MONOCHROME REVIEW</h2>
+                        <p>
+                            This film stock sets itself apart from other black and white films with its unique grain
+                            structure and tonal range.
+                        </p>
+                    </article>
+                </section>
+
+                <section class="tv__item">
+                    <img class="tv__image" src="src/Images/videoimage-3.webp" alt="TV Image" aria-label="TV Image">
+
+                    <article>
+                        <h2>AMBER D100 REVIEW</h2>
+                        <p>
+                            A wonderful color film that is perfect for capturing vibrant and saturated images.
+                        </p>
+                    </article>
+                </section>
+
+                <section class="tv__item">
+                    <img class="tv__image" src="src/Images/videoimage-4.webp" alt="TV Image" aria-label="TV Image">
+
+                    <article>
+                        <h2>AMBER T200 REVIEW</h2>
+                        <p>
+                            Something about this film stock that makes it a great choice for landscape photography.
+                        </p>
+                    </article>
+                </section>
+
+            </section>
+
+        </section>
+
+    </section>
+
+    <!-- Below is the code for the blog cards -->
+
+    <section class="blog__container">
+
+        <section class="blog__title">
+            <h1>SEE WHAT'S NEW</h1>
+
+            <p>
+                Stay up to date with our latest blog posts.
+            </p>
+        </section>
+
+        <!-- Below is the code for the articles -->
+
+        <section class="blog__elements">
+
+            <section class="blog__article-container">
+
+                <section class="blog__image-container">
+                    <img class="blog__image" src="src/Images/blogimage-baby.webp" alt="Blog Image"
+                         aria-label="Blog Image">
+                </section>
+
+                <section class="blog__article">
+                    <h1>The Art of Monochrome: A Conversation with Gadi Hidalgo</h1>
+
+                    <article>
+
+                        <p>
+                            "Gadi Hidalgo proves that black and white photography is anything but basic. Their images
+                            capture raw emotion and intricate detail, showcasing the power of light and shadow. Get
+                            inspired
+                            by their mastery of monochrome."
+                        </p>
+
+                        <p>Last Updated November 23, 2024</p>
+
+                    </article>
+                </section>
+
+            </section>
+
+            <section class="blog__article-container">
+
+                <section class="blog__image-container">
+                    <img class="blog__image" src="src/Images/blogimage-sky.webp" alt="Blog Image"
+                         aria-label="Blog Image">
+                </section>
+
+                <section class="blog__article">
+                    <h1>Behind the Lens: Hannah Marron's Secrets to Candid Photography</h1>
+
+                    <article>
+
+                        <p>
+                            "Hannah Marron believes the best moments happen when you least expect them. Explore
+                            their candid photography and learn how to capture the magic of everyday life."
+                        </p>
+
+                        <p>Last Updated November 2, 2024</p>
+
+                    </article>
+
+                </section>
+
+            </section>
+
+        </section>
+
+        <!-- Below is the code for the cards -->
+
+        <section class="news__elements">
+
+            <div class="news__item-newsletter">
+                <h2>JOIN OUR NEWSLETTER</h2>
                 <p>
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Stay up to date with our latest blog posts and film news.
                 </p>
-            </section>
-        </div>
+            </div>
 
-        <div class="cards__card-container">
-            <img class="cards__image" src="src/Images/cardlandscape.png" alt="Card Image" aria-label="Card Image">
-
-            <section>
-                <h2>TITLE</h2>
+            <div class="news__item-sign-up">
+                <h2>JOIN OUR NEWSLETTER</h2>
                 <p>
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Stay up to date with our latest blog posts and film news.
                 </p>
-            </section>
-        </div>
 
-    </section>
+                <section class="form__container">
 
-    <section class="mini-articles__container">
+                    <form class="form">
 
-        <article class="mini-articles__article-container">
-            <h1>BOX TITLE</h1>
+                        <input type="email" id="email" name="email" placeholder="Enter Email" aria-label="Email"
+                               required>
 
-            <p>
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
-                Ipsum.
-            </p>
-        </article>
+                        <input type="submit" value="Submit">
 
-        <article class="mini-articles__article-container">
-            <h1>BOX TITLE</h1>
+                    </form>
 
-            <p>
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
-                Ipsum.
-            </p>
-        </article>
+                </section>
 
-        <article class="mini-articles__article-container">
-            <h1>BOX TITLE</h1>
+            </div>
 
-            <p>
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
-                Ipsum.
-            </p>
-        </article>
-
-    </section>
-
-    <section class="articles__container">
-
-        <article class="articles__article-container">
-
-            <img class="articles__image" src="src/Images/articleimage.png" alt="Article Image" aria-label="Article Image">
-
-            <h1>What is Lorem Ipsum?</h1>
-
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                essentially unchanged.
-            </p>
-
-            <p>Last Updated November 19, 2024</p>
-
-        </article>
-
-        <article class="articles__article-container">
-
-            <img class="articles__image" src="src/Images/articleimage.png" alt="Article Image" aria-label="Article Image">
-
-            <h1>What is Lorem Ipsum?</h1>
-
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                essentially unchanged.
-            </p>
-
-            <p>Last Updated November 19, 2024</p>
-
-        </article>
-
-    </section>
-
-    <section class="splash-card__container">
-
-        <div class="splash-card__card-container">
-            <h2>TITLE</h2>
-            <p>Text.</p>
-        </div>
-
-    </section>
-
-    <section class="cards__container">
-
-        <div class="cards__card-container">
-            <h2>TITLE</h2>
-            <p>Text.</p>
-        </div>
-
-        <div class="cards__card-container">
-            <h2>TITLE</h2>
-            <p>Text.</p>
-        </div>
-
-    </section>
-
-    <section class="form">
-
-        <form class="form__container">
-
-            <input type="text" id="name" name="name" placeholder="Enter Username" aria-label="Username" required>
-
-            <input type="email" id="email" name="email" placeholder="Enter Email" aria-label="Email" required>
-
-            <input type="submit" value="Submit">
-
-        </form>
+        </section>
 
     </section>
 
@@ -275,8 +581,8 @@
         <section class="footer__grid-item footer__company-info">
 
             <section class="footer__company-info-logo">
-                <img class="footer__logo" src="src/Images/logo.png" alt="Logo" aria-label="Logo">
-                <h1>COMPANY NAME</h1>
+                <img class="footer__logo" src="src/Images/blklogonofill.png" alt="Logo" aria-label="Logo">
+                <!-- <h1>COMPANY NAME</h1> -->
             </section>
 
             <p>&copy; 2024</p>
@@ -284,7 +590,7 @@
 
         <section class="footer__grid-item footer__list-container--variant0">
 
-            <h1>COMPANY</h1>
+            <h1>BLK.FILM</h1>
 
             <ul class="footer__list">
                 <li><a class="footer__list-item" href="#" aria-current="page">Home</a></li>
@@ -299,9 +605,9 @@
             <h1>MORE</h1>
 
             <ul class="footer__list">
-                <li><a class="footer__list-item" href="#" aria-current="page">Link</a></li>
-                <li><a class="footer__list-item" href="#">Link</a></li>
-                <li><a class="footer__list-item" href="#">Link</a></li>
+                <li><a class="footer__list-item" href="#" aria-current="page">BLOG</a></li>
+                <li><a class="footer__list-item" href="#">SUBMISSIONS</a></li>
+                <li><a class="footer__list-item" href="#">NEWSLETTER</a></li>
             </ul>
 
         </section>

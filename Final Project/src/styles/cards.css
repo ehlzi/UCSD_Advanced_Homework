@@ -1,40 +1,88 @@
-.cards__container {
+.bio__elements {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    text-align: left;
+}
+
+.film-type__elements {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 1rem 0 1rem 0;
     gap: 1rem;
 }
 
-.cards__image {
+.shop__elements {
     display: flex;
+    justify-content: center;
     width: 100%;
+    gap: 1rem;
 }
 
-.cards__card-container {
+.shop__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    height: auto;
+    padding: 0 0 1rem 0;
+    color: rgb(40, 40, 43);
+    gap: 1rem;
+}
+
+.tv__elements {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+.tv__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 50%;
+    height: auto;
+    color: white;
+    gap: 1rem;
+}
+
+.blog__elements {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+    color: rgb(250, 249, 246);
+}
+
+.news__elements {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.news__item-sign-up {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     width: 50%;
     height: 50vh;
-    padding: 1rem 1rem 1rem 1rem;
-    background-color: grey;
+    padding: 1rem;
     color: white;
+    border: 0.1rem solid rgb(250, 249, 246);
     gap: 1rem;
 }
 
-.splash-card__container {
-    display: flex;
-    width: 100%;
-}
-
-.splash-card__card-container {
+.news__item-newsletter {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 100%;
+    width: 50%;
     height: 50vh;
-    padding: 1rem 1rem 1rem 1rem;
-    background-color: grey;
+    padding: 1rem;
+    background-color: rgb(249, 67, 20);
     color: white;
+    gap: 1rem;
 }
