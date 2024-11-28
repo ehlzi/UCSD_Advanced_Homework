@@ -19,11 +19,14 @@
 .shop__image-overlay-text {
     position: absolute;
     bottom: 0;
-    width: 100%;
-    text-align: center;
-    padding: 1rem;
+    text-align: left;
+    padding: 0.5rem;
     background: rgba(0, 0, 0, 0.5);
-    color: white;
+}
+
+.blog__image {
+    display: flex;
+    width: 100%;
 }
 
 .tv__splashimage {
@@ -33,11 +36,6 @@
 }
 
 .tv__image {
-    display: flex;
-    width: 100%;
-}
-
-.blog__image {
     display: flex;
     width: 100%;
 }

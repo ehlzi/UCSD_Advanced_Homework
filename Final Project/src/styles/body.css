@@ -31,7 +31,8 @@ main {
     height: auto;
     padding: 0 0 1rem 0;
     color: rgb(250, 249, 246);
-    border-bottom: 0.1rem solid rgb(250, 249, 246);
+    //border-bottom: 0.1rem solid rgb(250, 249, 246);
+    border-bottom: 0.1rem solid rgb(238, 207, 109);
 }
 
 .film-type__container {
@@ -41,7 +42,8 @@ main {
     padding: 2rem 0;
     gap: 3rem;
     //background-color: rgb(40, 40, 43);
-    border-bottom: 0.1rem solid rgb(250, 249, 246);
+    //border-bottom: 0.1rem solid rgb(250, 249, 246);
+    border-bottom: 0.1rem solid rgb(238, 207, 109);
 }
 
 .film-type__article-container {
@@ -58,12 +60,40 @@ main {
     width: 100%;
     padding: 2rem 0;
     gap: 3rem;
-    border-bottom: 0.1rem solid rgb(250, 249, 246);
+    //border-bottom: 0.1rem solid rgb(250, 249, 246);
+    border-bottom: 0.1rem solid rgb(238, 207, 109);
 }
 
 .shop__image-container {
     position: relative;
     width: 100%;
+}
+
+.blog__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem 0;
+    gap: 3rem;
+    //border-bottom: 0.1rem solid rgb(250, 249, 246);
+    border-bottom: 0.1rem solid rgb(238, 207, 109);
+}
+
+.blog__image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.blog__article-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 1rem 0;
+    color: rgb(250, 249, 246);
+    border: 0.1rem solid rgb(250, 249, 246);
 }
 
 .tv__container {
@@ -87,30 +117,4 @@ main {
     justify-content: center;
     width: 100%;
     background-color: black;
-}
-
-.blog__container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 2rem 0;
-    gap: 3rem;
-    border-bottom: 0.1rem solid rgb(250, 249, 246);
-}
-
-.blog__image-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 1rem;
-}
-
-.blog__article-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-    padding: 1rem 0;
-    color: rgb(250, 249, 246);
-    border: 0.1rem solid rgb(250, 249, 246);
 }
