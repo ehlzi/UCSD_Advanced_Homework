@@ -40,7 +40,7 @@ main {
     width: 100%;
     padding: 2rem 0;
     gap: 3rem;
-    background-color: rgb(40, 40, 43);
+    //background-color: rgb(40, 40, 43);
     border-bottom: 0.1rem solid rgb(250, 249, 246);
 }
 
