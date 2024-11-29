@@ -12,38 +12,38 @@
     - [x] Establish the color palette, typography (accessible fonts), and spacing/sizing system
     - [x] Create component design specifications for consistency (e.g., buttons, forms, headers)
 
-### WORKING ###
+### DONE ###
 
 ## Phase 2: Component Library Development
-- [ ] Build Reusable Tailwind Components
-    - [ ] Responsive navigation bar with a dropdown menu   <-- ### NEED TO ADD DROPDOWN MENU
+- [o] Build Reusable Tailwind Components
+    - [o] Responsive navigation bar with a dropdown menu   <-- ### NEED TO ADD DROPDOWN MENU
     - [x] Hero section introducing Blk.Film and its mission
-    - [ ] Community showcase grid for photographers' works or sample images   <-- ### MAY ADD A GALLERY
-    - [x] Newsletter/contact form for sign-ups (HTML5 validation included)   <-- ### NEED HTML VALIDATION
+    - [x] Newsletter/contact form for sign-ups (HTML5 validation included)
     - [x] Footer with links and copyright information
+    - [-] (Optional) Community showcase grid for photographers' works or sample images
 
-- [ ] Implement Accessibility Features
-    - [ ] Use semantic HTML structure <-- ### WORKING ON NOW
-    - [ ] Add ARIA labels for enhanced accessibility
-    - [ ] Ensure keyboard navigation support and screen reader compatibility
+- [x] Implement Accessibility Features
+    - [x] Use semantic HTML structure
+    - [x] Add ARIA labels for enhanced accessibility
+    - [x] Ensure keyboard navigation support and screen reader compatibility
 
 ### WORKING ###
 
 ## Phase 3: Core Features Implementation
-- [ ] Develop the Responsive Layout
+- [x] Develop the Responsive Layout
     - [x] Use CSS Grid/Flexbox to structure sections
-    - [ ] Test mobile-first design and optimize for various screen sizes using Tailwind breakpoints
+    - [x] Test mobile-first design and optimize for various screen sizes using Tailwind breakpoints
 
 - [x] Create and Style the Contact Form
     - [x] Required fields: Full Name and Email
-    - [ ] Optional field: Phone Number
+    - [x] Optional field: Phone Number
     - [x] Style the form and add a submit button with hover states
-    - [ ] Add HTML5 or JavaScript validation for inputs
+    - [x] Add HTML5 or JavaScript validation for inputs
 
 - [ ] Interactive Elements
-    - [ ] Implement hover effects for menu items and buttons using Tailwind pseudo-classes
-    - [ ] Add transitions for smoother interactions (e.g., hover effects and modal displays)
-    - [ ] Include scroll-triggered animations for dynamic visuals
+    - [o] Implement hover effects for menu items and buttons using Tailwind pseudo-classes
+    - [o] Add transitions for smoother interactions (e.g., hover effects and modal displays)
+    - [o] Include scroll-triggered animations for dynamic visuals
 
 ### WORKING ###
 
@@ -56,11 +56,9 @@
     - [ ] Subtle transforms (e.g., scale or rotate effects)
     - [ ] Animated transitions for gallery showcases or hero section text
 
-- [ ] Add Custom Properties and Utilities
-    - [ ] Define and use CSS variables for brand colors and spacing
-    - [ ] Create utility classes for repeated styles (e.g., margins, paddings)
-
-### WORKING ###
+- [x] Add Custom Properties and Utilities
+    - [x] Define and use CSS variables for brand colors and spacing
+    - [x] Create utility classes for repeated styles (e.g., margins, paddings)
 
 ## Phase 5: Testing & Optimization
 - [ ] Cross-Browser Testing
